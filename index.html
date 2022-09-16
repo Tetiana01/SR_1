@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ukr">
+<head>
+    <meta charset="UTF-8">
+    <title>Самостійна робота_1</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <div  style="background-image: url('images/ukr.jpg'); height: 100px; background-repeat: no-repeat; ">
+        <h1 style="padding-left: 100px;">Самостійна робота №1</h1>
+    </div>
+
+    <a href="https://uk.wiktionary.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F" target="_blank">
+        <img src="images//viki.jpg" alt="Viki" title="Vikipedia page" style="width: 200px; border:0px;">
+    </a>
+
+    <ul id="ul1">
+        <li id="li1"><a href="index.html">Home</a></li>
+        <li id="li1"><a href="computer.html">Form</a></li>
+        <li id="li1"><a href="coffee.html">Another</a></li>
+    </ul>
+
+    <h2>Зміст</h2>
+
+    <ul>
+        <a href="#h1" style="color: green;"><li>HTML</li></a>
+        <a href="#h2" style="color: green;"><li>Версії</li></a>
+        <a href="#h3" style="color: green;"><li>Розмітка HTML</li></a>
+        <a href="#h4" style="color: green;"><li>Елемент Picture</li></a>
+        <a href="#h5" style="color: green;"><li>Карта зображень</li></a>
+        <a href="#h6" style="color: green;"><li>Таблиці</li></a>
+    </ul>
+
+    <p>
+        <img src="images//html_img.jpg" alt="HTML" height="50" style="float: left ;">
+        Мета: <br> придбати практичні навички роботи з HTML-документом, таблицями, ,
+        зображеннями, посиланнями, списками,формами. 
+        <a href="https://docs.google.com/document/d/151YEdEhJpFl4N7STK58PFZb31sWqhGdPUf1Ozjkv46A/edit" target="_blank" title="Google docx"> Посилання</a>  на документ СР №1
+    </p>
+
+    <a href="https://uk.wikipedia.org/wiki/HTML" target="_blank">
+        <button>Click</button>
+    </a>
+
+    <h2 id="h1" title="Означення" >HTML</h2>
+    <p>
+        <em>HTML</em> (англ. HyperText Markup Language — мова розмітки гіпертексту) — стандартизована мова розмітки документів для перегляду 
+        веб-сторінок у браузері. Веб-браузери отримують HTML документ від сервера за протоколами HTTP/HTTPS або відкривають з локального 
+        диска, далі інтерпретують код в інтерфейс, який відображатиметься на екрані монітора.
+    </p>
+
+    <h2 id="h2" >Версії</h2>
+    <ol type="I">
+        <li>HTML 2.0</li>
+        <li>HTML 3.0</li>
+        <ul style="list-style-type: disc;">
+            <li>HTML 3.2</li>
+        </ul>
+        <li>HTML 4.0</li>
+        <ul>
+            <li>HTML 4.01</li>
+        </ul>
+        <li>HTML 5</li>
+        <ul style="list-style-type: square;">
+            <li>HTML 5.1</li>
+            <li>HTML 5.2</li>
+            <li>HTML 5.3</li>
+        </ul>
+    </ol>
+
+    <h3>Відомі HTML-редактори</h3>
+    <dl>
+        <dt>Комерційні</dt>
+            <dd>-Adobe GoLive</dd>
+        <dt>Безкоштовні</dt>
+            <dd>-Google Web Designer</dd>
+    </dl>
+
+    <h3>Базові елементи HTML</h3>
+    <ol start="10">
+        <li>head</li>
+        <li>title</li>
+        <li>meta</li>
+        <li>body</li>
+    </ol>
+
+    <h2 id="h3" >Розмітка HTML</h2>
+    <pre>
+        Розмітка в HTML складається з чотирьох основних компонентів: 
+        елементів (та їхніх атрибутів), 
+        базових типів даних, 
+        символьних мнемонік та декларації типу документа.
+    </pre>
+   
+    <h2 id="h4" >Елемент Picture</h2>
+    <picture>
+        <source media="(min-width: 650px)" srcset="images/html_img.jpg">
+        <source media="(min-width: 465px)" srcset="images/viki.jpg">
+        <img src="images/map_area.jpg" alt="HTML/CSS/JS" style="width: 300px;"> 
+    </picture>
+    
+    <h2 id="h5" >Карта зображень</h2>
+    <img src="images/workplace.jpg" alt="Workplace" usemap="#workmap">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Комп’ютер" href="computer.html">
+        <area shape="circle" coords="337,300,44" alt="Кава" href="coffee.html">
+    </map>
+
+    <h2 id="h6" >Таблиці</h2>
+    <table >
+        <caption>Назви кольорів в HTML</caption>
+        <tr>
+            <th colspan="2">Назва</th>
+
+            <th>Шістнадцятковий запис</th>
+            <th>Тон</th>
+        </tr>
+        <tr>
+            <td>White</td>
+            <td>Білий</td>
+            <td>#FFFFFF</td>
+            <td rowspan="2">0°</td>
+        </tr>
+        <tr>
+            <td>Black</td>
+            <td>Чорний</td>
+            <td>#000000</td>
+            
+        </tr>
+        <tr>
+            <td>Yellow</td>
+            <td>Жовтий</td>
+            <td>#FFFF00</td>
+            <td>60°</td>
+        </tr>
+        
+        <tr>
+            <td>Lime</td>
+            <td>Салатовий</td>
+            <td>#00FF00</td>
+            <td>120°</td>
+        </tr>
+
+    </table>
+    <br>
+    <table id="t1">
+        <caption>Назви кольорів в HTML</caption>
+        <tr>
+            <th colspan="2">Назва</th>
+
+            <th>Шістнадцятковий запис</th>
+            <th>Тон</th>
+        </tr>
+        <tr>
+            <td>White</td>
+            <td>Білий</td>
+            <td>#FFFFFF</td>
+            <td rowspan="2">0°</td>
+        </tr>
+        <tr>
+            <td>Black</td>
+            <td>Чорний</td>
+            <td>#000000</td>
+            
+        </tr>
+        <tr>
+            <td>Yellow</td>
+            <td>Жовтий</td>
+            <td>#FFFF00</td>
+            <td>60°</td>
+        </tr>
+        
+        <tr>
+            <td>Lime</td>
+            <td>Салатовий</td>
+            <td>#00FF00</td>
+            <td>120°</td>
+        </tr>
+
+    </table>
+</body>
+</html>

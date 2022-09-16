@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="Ukr"> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Computer</title>
+    </head>
+
+    <body>
+        <h1 style="color: green;">Computer</h1>
+
+        <h2>Registration</h2>
+
+        <form action="/index.html" autocomplete="on">
+            <fieldset style="background-color: rgb(240, 236, 243);">
+                <legend>Personal Info</legend>
+
+                <label for="nick">login</label> <br>
+                <input type="text" id="nick" name="nick" placeholder="Enter ur login" required> <br>
+
+                <label for="pass">password</label> <br>
+                <input type="password" id="pass" name="pass" placeholder="Enter ur password" required maxlength="8"> <br> <br>
+
+                <input type="number" name="numb" min="16" max="100"> <br> <br>
+
+                <input type="radio" name="gender" value="male" checked>male <br>
+                <input type="radio" name="gender" value="female">female <br> <br>
+                
+                <select name="countries" >
+                    <option value="Ukr">Ukraine</option>
+                    <option value="UK">UK</option>
+                    <option value="Ger">Germany</option>
+                    <option value="Pl">Poland</option>
+                </select> <br> <br>
+                
+                Date Birth:
+                <input type="date" name="bday" max="2023-01-01"><br>
+            </fieldset>
+
+            <input type="checkbox" name="check" value="agree">I agree to save my info <br> <br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset"> <br> <br>
+
+            <input type="file" name="file" > <br> <br>
+
+            <textarea name="comment" rows="5" cols="40">Comment On</textarea> <br> <br> 
+            <button type="button" onclick="alert('Слава Україні!!!')">Click</button>
+
+
+        </form>
+    </body>
+</html>
